@@ -64,25 +64,18 @@ A8 = list(map(lambda x: x * 2, [1, 2, 3, 4]))  # [2, 4, 6, 8]
 A9 = list(filter(lambda x: len(x) > 3, ["I", "want", "to", "learn", "python"]))  # ['want', 'learn', 'python']
 # Python Practice Questions
 
-This repository contains solutions to various Python practice questions. Each question is implemented as a separate function. Below is a description of each question and its corresponding function.
-
-## Questions
-
 ### Q9. Date Comparison
-
-Function: `compare_dates(from_date: str, to_date: str, difference: int) -> bool`
+Function: compare_dates(from_date: str, to_date: str, difference: int) -> bool
 
 Description: Compares two dates and returns True if the difference between them is less than the specified number of days.
 
 ### Q10. Date Calculation
-
-Function: `calculate_previous_date(date: str, n: int) -> str`
+Function: calculate_previous_date(date: str, n: int) -> str
 
 Description: Given a date in the format 'yy-mm-dd' and a number of days, returns the string representation of the date n days before the input date.
 
 ### Q11. Function Execution
-
-Description: The provided code demonstrates the execution of the function `f(x, l=[])`. It appends the square of numbers to a list and prints the list after each function call.
+Description: The provided code demonstrates the execution of the function f(x, l=[]). It appends the square of numbers to a list and prints the list after each function call.
 
 
 
